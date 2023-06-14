@@ -2,7 +2,7 @@
 In this project, i used python pandas and numpy to clean data i got from youtube
 
 **IMPORTING AND READING DATA(RAW DATA)**
-![Uploading Screenshot (23).png…]()
+![Screenshot (23)](https://github.com/Ikanabasi/Nashville_Cleaning/assets/116980575/a44b5872-140c-4aeb-8b07-5b2de5fef9a6)
 I explored the data
 
 **DROP DUPLICATES**
@@ -14,7 +14,7 @@ I checked for duplicates in the data and it returned the same number of rows and
 I dropped the null values because when i went through and explored the data i realized i couldn't work with the rows with null values so i dropped all of it.
 
 **SPLIT PROPERTY AND OWNER ADDRESS**
-![Uploading Screenshot (19).png…]()
+![Screenshot (19)](https://github.com/Ikanabasi/Nashville_Cleaning/assets/116980575/b3cc60b5-10ac-4fad-950d-7743e5323d97)
 For property address, the street and city were in the same column, but then to make the data more readable for users or clients, i split them into different columns, i also did same for owner address.
 
 **PUT PRICE IN DOLLARS**
@@ -22,11 +22,11 @@ For property address, the street and city were in the same column, but then to m
 I manipulated the data and placed a dollar sign in the numbers necessary to let anyone reading the data to understand that the prices were in dollars.
 
 **CONVERT DATA TYPES**
-![Uploading Screenshot (20).png…]()
+![Screenshot (20)](https://github.com/Ikanabasi/Nashville_Cleaning/assets/116980575/9e98d7ed-736f-4716-b549-899faa78373e)
 Colums like YearBuilt, Bedrooms, Fullbath and Halfbath were in float format which wasnt supposed to be so so i manipulated it by converting those collumns to integers.
 
 **EXPORT DATA(CLEAN DATA)**
-![Uploading Screenshot (22).png…]()
+![Screenshot (22)](https://github.com/Ikanabasi/Nashville_Cleaning/assets/116980575/e3e92587-5afb-4337-9e55-4780d857051d)
 I exported the clean data in CSV format to my pc.
 
 
